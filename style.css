@@ -6,6 +6,7 @@ header {
     text-align: center;
     font-family: arial, serif;
     background-color: var(--color-BDE);
+    color: greenyellow
 }
 
 .imageflottante
@@ -16,6 +17,7 @@ header {
 table{
     text-align: center;
 }
+
 table,
 td {
     border: 1px solid #333;
