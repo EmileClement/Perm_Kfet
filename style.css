@@ -1,0 +1,63 @@
+:root {
+    --color-BDE:#12432E
+}
+
+header {
+    text-align: center;
+    font-family: arial, serif;
+    background-color: var(--color-BDE);
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+table{
+    text-align: center;
+}
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: var(--color-BDE);
+    color : white;
+}
+
+.ligne_fermee {
+    background-color: red;
+}
+
+.ligne_GC {
+    background-color: forestgreen;
+}
+
+.ligne_perm {
+    background-color: chartreuse;
+}
+
+.ligne_entete {
+    bac  background-color: var(--color-BDE);
+}
+
+.ligne_bouff {
+    background-color: yellow;
+}
+
+main {
+    text-align: center;
+}
+
+
+.msg_avertissement {
+    border: 3px black solid;
+    width: 50%
+        
+}
+
+.etat_des_perms {
+    align-items: center;
+}
