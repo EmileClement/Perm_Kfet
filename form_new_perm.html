@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>Test du fomulaire</title>
+	<meta name="author" content="Leo">
+	<meta name="description" content="Example description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" type="image/x-icon" href="./element/Logo_splpp.png"/>
+</head>
+
+<body>
+	<header></header>
+	<main>
+        <form method="get" action="traitement_new_perm.php">
+            <p>
+                <label for="pseudo">Votre pseudo</label> : <input type="text" name="pseudo" id="pseudo" />
+            </p>
+            <p>
+                <label for="Jour">Votre pseudo</label> : <input type="date" name="jour" id="jour" />
+            </p>
+            <p>
+                <label for="H1">Debut</label> : <input type="time" name="H1" id="H1" />
+                <label for="H2">Fin</label> : <input type="time" name="H2" id="H2" />
+            </p>
+            
+            <p>
+                <label for="Type">Perm bar</label> : <input type="radio" name="type" id="type_0" value = 0 checked />
+            </p>
+            <p>
+                <label for="Type">Perm bouffe</label> : <input type="radio" name="type" id="type_1" value = 1/>
+            </p>
+            <p>
+                <label for="Type">Perm GCK</label> : <input type="radio" name="type" id="type_2" value = 2/>
+            </p>
+            <p>
+                <label for="Type">Occupation</label> : <input type="radio" name="type" id="type_3" value = 3/>
+            </p>
+            <p>
+                <label for="commentaire">Un commentaire ?</label> :
+            </p>
+             <textarea name="commentaire" id="commentaire"></textarea>
+            <p>
+            <input type="submit" value="Enregistrer">
+            </p>
+        </form>
+    </main>
+	<footer></footer>
+</body>
+
+</html>

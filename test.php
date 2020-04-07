@@ -8,23 +8,23 @@
 	<meta name="description" content="Example description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" />
-	<link rel="icon" type="image/x-icon" href="Logo_splpp.png"/>
+	<link rel="icon" type="image/x-icon" href="./element/Logo_splpp.png"/>
 </head>
 
 <body>
 	<header> 
-        <p><br></p>
-        <h1>
-            La Keft c'est la vie<br>Les perms c'est le sang
-<!--            <img src="Logo_splpp.png" alt="SPLPP" class = "image_flottante"  />-->
-        </h1>
-        <p>Prenez des perms</p>
-        <p><br></p>
+        <?php echo include("./element/header.php"); ?>
     </header>
 	<main>
         <div class = "etat_des_perms">
             <div class = "msg_avertissement">
                 Attention, pas de GCK de 18h00 à 00h00
+            </div>
+            <div class = "msg_avertissement">
+                Attention, pas de GCK de 15h00 à 00h00
+            </div>
+            <div class = "msg_avertissement">
+                Attention, pas de GCK de 12h00 à 00h00
             </div>
         </div>
         <div class = "navigation">

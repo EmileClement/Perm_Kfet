@@ -56,10 +56,15 @@ main {
 
 .msg_avertissement {
     border: 3px black solid;
-    width: 50%
-        
+    width: 50%;
+    border-color: darkred;        
 }
 
+
+
 .etat_des_perms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
